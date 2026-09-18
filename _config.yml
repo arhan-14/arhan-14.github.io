@@ -2,18 +2,18 @@ title: Arhan Nagavelli
 description: >-
   Junior CS student at Rutgers University, working on computer architecture
   for ML and ML for computer architecture.
-url: "https://arhan-14.github.io"   # change to your GitHub Pages URL (or custom domain)
-baseurl: ""                          # leave "" for a custom domain or user/org page (username.github.io)
-                                      # use "/reponame" if this is a PROJECT page (repo not named username.github.io)
+url: "https://arhan-14.github.io"
+baseurl: ""                          
+                                      
 
 permalink: /blog/:year/:month/:day/:title/
 
 collections_dir: .
 markdown: kramdown
 plugins:
-  - jekyll-feed         # gives you /feed.xml for free
-  - jekyll-sitemap      # gives you /sitemap.xml for free
-  - jekyll-seo-tag      # adds proper <title>/meta tags
+  - jekyll-feed         
+  - jekyll-sitemap      
+  - jekyll-seo-tag      
 
 defaults:
   - scope:
